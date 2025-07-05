@@ -1,16 +1,45 @@
 # Summer_Internship_2025
-Project Title: Speech-to-Phoneme Normalization with CMU Dictionary and TTS
-Student Name: Vyom Mukeshkumar Patel
-College ID: 22IT121
 
-This project aims to build an interactive web-based application that converts speech into phonemes using the CMU Pronouncing Dictionary and provides audio feedback using a Text-to-Speech (TTS) engine. The project was developed using Python, Flask for the web framework, and libraries such as SpeechRecognition, pyttsx3, NLTK, and sounddevice.
+## 📸 Screenshots
 
-Initially, the system was created to accept voice input, convert it into text using the Google Speech API, extract phonemes using NLTK’s interface with the CMU dictionary, and synthesize speech using pyttsx3. Once the core functionalities were tested in a command-line environment, the focus shifted to building a user-friendly Flask-based web interface. This included audio recording through the browser, phoneme extraction display, and playback features. Basic HTML and CSS were used for UI development, while JavaScript and WebRTC enabled direct microphone access across different browsers.
+(Add screenshots of the UI, phoneme feedback, and scoring page here)
 
-In the third and fourth weeks, major improvements were made, such as expanding phoneme extraction to entire sentences, logging all transcriptions and their phoneme outputs in a CSV/database, and adding a pronunciation scoring system. The score compares the spoken phonemes to the expected sequence from the CMU dictionary, providing visual feedback with color-coded matching and mismatched sounds.
+## 🧪 Testing & Validation
 
-A dedicated API (/api/score) was introduced to enable future integration or mobile app expansion. A history page was also added to allow users to review their previous recordings, phoneme outputs, and scores. Final testing was conducted across various devices and browsers, ensuring cross-platform compatibility.
+- Cross-browser and cross-device testing
+- Real-time feedback for user recordings
+- Visual pronunciation scoring with match indicators
 
-In the final week, a project demonstration video, slide presentation, and complete documentation were prepared. The application was successfully deployed on PythonAnywhere, and feedback was gathered from professors and peers, which guided minor refinements in the UI and error handling.
+## 🎯 Future Scope
 
-Overall, the project effectively integrates speech processing, phoneme analysis, and TTS synthesis into a cohesive and interactive educational tool, with potential future applications in language learning, speech therapy, and AI-driven pronunciation training.
+- Mobile app integration
+- International Phonetic Alphabet (IPA) support
+- Adaptive feedback for language learners
+
+## 📽️ Demonstration
+
+> A demo video and presentation slides are available in the `docs/` folder or [link to video].
+
+## 📁 Final Submission Includes
+
+- Source code
+- Project reports
+- Presentation slides
+- Deployment link
+- Installation guide
+- Demonstration video
+
+---
+
+## 🤝 Acknowledgements
+
+- [Google Speech API](https://cloud.google.com/speech-to-text)
+- [NLTK CMUdict](https://www.nltk.org/)
+- [PythonAnywhere](https://www.pythonanywhere.com/)
+- [W3Schools](https://www.w3schools.com/) for frontend templates
+
+---
+
+## 📬 Contact
+
+For any queries or contributions, feel free to reach out via GitHub or email.
