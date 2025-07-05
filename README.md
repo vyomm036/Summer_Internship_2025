@@ -2,8 +2,6 @@
 
 ## 📸 Screenshots
 
-(Add screenshots of the UI, phoneme feedback, and scoring page here)
-
 ## 🧪 Testing & Validation
 
 - Cross-browser and cross-device testing
